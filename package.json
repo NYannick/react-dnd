@@ -1,10 +1,10 @@
 {
-  "name": "react-dnd-parent",
-  "private": true,
+  "name": "react-dnd-nyannick",
+  "private": false,
   "description": "React-DnD Monorepo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dnd/react-dnd.git"
+    "url": "git+https://github.com/react-dnd/react-dnd.git"
   },
   "keywords": [
     "react",
@@ -200,5 +200,7 @@
     "nohoist": [
       "react-dnd-documentation/**"
     ]
-  }
+  },
+  "version": "1.0.0",
+  "main": "babel.config.cjs.js"
 }
